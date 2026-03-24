@@ -1,0 +1,110 @@
+# ================================
+# General
+# ================================
+*.log
+*.tmp
+*.swp
+*.lock
+*.exe
+.DS_Store
+Thumbs.db
+
+# ================================
+# Dart / Flutter
+# ================================
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.metadata
+
+# Generated files
+**/generated_plugin_registrant.dart
+
+# ================================
+# Android
+# ================================
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/android/**/build/
+
+# Keystore (IMPORTANT – never upload)
+*.keystore
+key.properties
+
+# APK / AAB Outputs
+*.apk
+*.aab
+
+# ================================
+# iOS
+# ================================
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/ServiceDefinitions.json
+ios/Pods/
+ios/.symlinks/
+**/ios/**/build/
+
+# ================================
+# Windows / Linux / macOS build
+# ================================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+**/macos/**/build/
+
+# ================================
+# IDE Files
+# ================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ================================
+# Firebase (VERY IMPORTANT)
+# ================================
+# Firebase config (contains API keys)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Firebase cache
+.firebase/
+.firebaserc
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Misc
+# ================================
+.history/
+.svn/
+
+build/
+*.exe
+*.apk
+*.aab
+.firebase/
+.dart_tool/
+android/.gradle/
+.env
+
+# added for extra security against pushing Firebase config
+lib/firebase_options.dart
+GROOMIFYYY/
